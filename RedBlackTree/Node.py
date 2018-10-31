@@ -11,26 +11,16 @@ RED = 2
 
 class Node:
 
-    def __init__(self):
+    def __init__(self, value, color):
 
-        self.parent = None
+        self._parent = None
 
-        self.left = None
+        self._left = None
 
-        self.right = None
+        self._right = None
 
-        self.value = -1
+        self._value = value
 
-    def setLeft(self, node):
-
-        self.left = node
-
-    def setRight(self, node):
-
-        self.right = node
-
-    def setParent(self, node):
-
-        self.parent = node
+        self._color = color
 
 
