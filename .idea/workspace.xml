@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9bc9eb-1e33-49f8-b8df-ca840e9e2ceb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Least Common Subsequence/LCS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Least Common Subsequence/LCS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedBlackTree/RBTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/RedBlackTree/RBTree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Analysis_of_Algorithms$test.coverage" NAME="test Coverage Results" MODIFIED="1539464415176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Analysis_of_Algorithms$mystery.coverage" NAME="mystery Coverage Results" MODIFIED="1536621117053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AlgoSoup$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1542256186533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Least Common Subsequence" />
+    <SUITE FILE_PATH="coverage/AlgoSoup$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1542257301565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Least Common Subsequence" />
     <SUITE FILE_PATH="coverage/AlgoSoup$RBTree.coverage" NAME="RBTree Coverage Results" MODIFIED="1539834888025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Red Black Tree" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -77,13 +75,13 @@
         <counts>
           <entry key="Python Console" value="715" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="4851" />
+          <entry key="py" value="4950" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5566" />
+          <entry key="Python" value="5665" />
         </counts>
       </usages-collector>
     </session>
@@ -93,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="45">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -397,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>

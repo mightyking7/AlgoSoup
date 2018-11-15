@@ -2,26 +2,14 @@
 Utilizes Dynamic programming to find the least common
 sub-sequence between two variable length input strings
 '''
-
-#TODO use lists comprehension
 def lcsLength(A, B):
 
     m = len(A) - 1
 
     n = len(B) - 1
 
-    # stores previously computed sub-problems
-    c = [[]]
-
-    # c is a new table
-    for i in range(0, m + 1):
-
-        tmpArray = []
-
-        for j in range(0, n + 1):
-            tmpArray.append(0)
-
-        c.insert(i, tmpArray)
+    # table for previously computed sub-problems
+    c = [[0 for j in range(n + 1)] for i in range(m + 1)]
 
     # determine the LCS
 
@@ -46,11 +34,8 @@ def lcsLength(A, B):
 '''
 Test LCS
 '''
-
 a = [None, 'a', 'g', 'c', 'a', 't']
 
 b = [None, 'g', 'a', 'c']
-
-c =
 
 c = lcsLength(a, b)
