@@ -1,46 +1,40 @@
 '''
 Utilizes Dynamic programming to find the least common
-sub-sequence between two strands of DNA, whose elements
-have an alphabet of A-Z.
+sub-sequence between two variable length input strings
 '''
 
-'''
-Computes longest common sub-sequence
-'''
-
-
+#TODO use lists comprehension
 def lcsLength(A, B):
-    m = len(A)
 
-    n = len(B)
+    m = len(A) - 1
 
-    # stores optimal sub-problems previously computed
+    n = len(B) - 1
+
+    # stores previously computed sub-problems
     c = [[]]
 
-    tmpArray = []
+    # c is a new table
+    for i in range(0, m + 1):
 
-    for i in range(0, m):
-        tmpArray.append(0)
+        tmpArray = []
 
-    c.append(tmpArray)
+        for j in range(0, n + 1):
+            tmpArray.append(0)
 
-    for i in range(n, 0):
-        tmpArray.append(0)
+        c.insert(i, tmpArray)
 
-    c.append(tmpArray)
+    # determine the LCS
 
-    for i in range(0, m):
+    for i in range(1, m + 1):
 
-        for j in range(0, n):
+        for j in range(1, n + 1):
 
             # if the elements match, add one to LCS thus far
-            if A[i] == B[i]:
-
+            if A[i] == B[j]:
                 c[i][j] = c[i - 1][j - 1] + 1
 
             # find the LCS by computing max( c[i-1][j], c[i][j-1] )
             elif c[i - 1][j] > c[i][j - 1]:
-
                 c[i][j] = c[i - 1][j]
 
             else:
@@ -49,6 +43,14 @@ def lcsLength(A, B):
     return c
 
 
-def constructLCS():
+'''
+Test LCS
+'''
 
-    
+a = [None, 'a', 'g', 'c', 'a', 't']
+
+b = [None, 'g', 'a', 'c']
+
+c =
+
+c = lcsLength(a, b)
