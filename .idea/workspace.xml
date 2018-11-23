@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9bc9eb-1e33-49f8-b8df-ca840e9e2ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Least Common Subsequence/test_cases.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AlgoSoup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgoSoup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Least Common Subsequence/LCS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Least Common Subsequence/LCS.py" afterDir="false" />
     </list>
@@ -13,6 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Analysis_of_Algorithms$test.coverage" NAME="test Coverage Results" MODIFIED="1539464415176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgoSoup$LCSDriver.coverage" NAME="LCSDriver Coverage Results" MODIFIED="1542954273258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Least Common Subsequence" />
     <SUITE FILE_PATH="coverage/Analysis_of_Algorithms$mystery.coverage" NAME="mystery Coverage Results" MODIFIED="1536621117053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgoSoup$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1542951977611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Least Common Subsequence" />
     <SUITE FILE_PATH="coverage/AlgoSoup$RBTree.coverage" NAME="RBTree Coverage Results" MODIFIED="1539834888025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Red Black Tree" />
@@ -64,39 +68,65 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="15" />
+          <entry key="py" value="17" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="15" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="904" />
+          <entry key="Python Console" value="998" />
           <entry key="dummy" value="1" />
-          <entry key="py" value="6009" />
+          <entry key="py" value="7188" />
+          <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6913" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="Python" value="8186" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="-546">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding>
-                <marker date="1542952135615" expanded="true" signature="1033:1381" ph="..." />
+                <marker date="1542952255953" expanded="true" signature="1033:1367" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding>
+                <element signature="e#1#11#0" expanded="true" />
+                <marker date="1542954388683" expanded="true" signature="162:163" ph="..." />
+                <marker date="1542954388683" expanded="true" signature="162:168" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Least Common Subsequence/test_cases.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -126,6 +156,8 @@
         <option value="$PROJECT_DIR$/RedBlackTree/Node.py" />
         <option value="$PROJECT_DIR$/RedBlackTree/RBTree.py" />
         <option value="$PROJECT_DIR$/Least Common Subsequence/LCS.py" />
+        <option value="$PROJECT_DIR$/Least Common Subsequence/test_cases.txt" />
+        <option value="$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py" />
       </list>
     </option>
   </component>
@@ -192,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LCS">
+  <component name="RunManager" selected="Python.LCSDriver">
     <configuration name="LCS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgoSoup" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,6 +240,28 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Least Common Subsequence/LCS.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LCSDriver" type="PythonConfigurationType" factoryName="Python">
+      <module name="AlgoSoup" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Least Common Subsequence" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py" />
+      <option name="PARAMETERS" value="test_cases.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -282,6 +336,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.LCSDriver" />
       <item itemvalue="Python.mystery" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.RBTree" />
@@ -389,9 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Least Common Subsequence/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -399,12 +451,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Least Common Subsequence/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="-546">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
-            <marker date="1542952135615" expanded="true" signature="1033:1381" ph="..." />
+            <marker date="1542952255953" expanded="true" signature="1033:1367" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Least Common Subsequence/test_cases.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+            <marker date="1542954388683" expanded="true" signature="162:163" ph="..." />
+            <marker date="1542954388683" expanded="true" signature="162:168" ph="..." />
           </folding>
         </state>
       </provider>
