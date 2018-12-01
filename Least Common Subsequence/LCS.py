@@ -1,20 +1,28 @@
 '''
-Utilizes Dynamic programming to find the least common
-sub-sequence between two variable length input strings
+Purpose:
+    Utilizes Dynamic programming to find the least common
+    sub-sequence between two strings
+
+Parameters:
+    A - String to compare
+    B - String to compare
+
+Return:
+   Table lengths for sequences A and B
 '''
 def lcsLength(A, B):
 
-    m = len(A) - 1
+    m = len(A)
 
-    n = len(B) - 1
+    n = len(B)
 
-    # table for previously computed sub-problems
-    c = [[0 for j in range(n + 1)] for i in range(m + 1)]
+    # overlaying sub-problems
+    c = [[0 for j in range(n)] for i in range(m)]
 
     # determine the LCS
-    for i in range(1, m + 1):
+    for i in range(1, m):
 
-        for j in range(1, n + 1):
+        for j in range(1, n):
 
             # if the elements match, add one to LCS thus far
             if A[i] == B[j]:
@@ -49,7 +57,7 @@ def constructLCS(A, B, C):
 
     j = len(B) - 1
 
-    sol = ""    # solution
+    sol = ""
 
     while i > 0 and j > 0:
 
@@ -66,20 +74,3 @@ def constructLCS(A, B, C):
             j -= 1
 
     return sol
-
-
-
-
-
-'''
-Test LCS
-'''
-a = [None, 'a', 'g', 'c', 'a', 't']
-
-b = [None, 'g', 'a', 'c']
-
-c = lcsLength(a, b)
-
-lcs = constructLCS(a, b, c)
-
-print(lcs)
