@@ -73,11 +73,13 @@ class Graph:
         # find the shortest path for each vertex
         for i, value in enumerate(self.vertices):
 
-            # obtain index of vertex the minimum distance
+            # obtain index of vertex with the minimum distance
             u = self.minDistance(dist)
 
             # update distance for each adjacent vertex
             vertex = self.vertices[u]
+
+            self.sptSet[vertex] = True
 
             # iterate over adjacent vertices
             for v in vertex.getConnections():
@@ -106,8 +108,8 @@ class Graph:
     '''
     def printSolution(self, dist):
 
-        print("Vertex\tDistance")
+        print("%-10s %8s" %("Vertex", "Distance"))
 
         for k, v in dist.items():
 
-            print("%s\t%d" %(k, v))
+            print("  %s           %d" %(k, v))
