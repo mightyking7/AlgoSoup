@@ -62,7 +62,6 @@ def constructLCS(A, B, C):
     while i > 0 and j > 0:
 
         if A[i] == B[j]:
-            #TODO, optimize concatenation
             sol = A[i] + sol
             i -= 1
             j -= 1
