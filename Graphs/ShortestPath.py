@@ -3,56 +3,79 @@
     with vertices and utilizes Dijkstras
     algorithm to compute the shortest path
     from a source to each vertex.
+
+    Isaac Buitrago
 '''
 
 
 from Graph import *
 from Vertex import *
 
+# Graph of nodes
+graph = Graph()
+
 
 '''
-    Create Vertices
+    Create Vertices.txt
 '''
 def main():
 
-    v1 = Vertex("A")
+    src = None
 
-    v2 = Vertex("B")
+    # create empty graph
+    graph = Graph()
 
-    v3 = Vertex("C")
+    # parse vertices, add them to the graph
+    file = open("Vertices.txt", 'r')
 
-    v4 = Vertex("D")
+    while True:
 
-    v5 = Vertex("E")
+        line = file.readline()
 
-    # list of vertices
-    l = []
+        if line == "":
+            break
 
-    v1.addNeighbor(v2, 5)
+        vertices = line.strip().split()
 
-    v1.addNeighbor(v3, 3)
+        for v in vertices:
 
-    v2.addNeighbor(v5, 1)
+            graph.addVertex(v)
 
-    v2.addNeighbor(v4, 4)
+    # parse connections, create connections in the graph
+    file = open("Connections.txt", 'r')
 
-    v3.addNeighbor(v4, 6)
+    lineNum = 1
 
-    v3.addNeighbor(v5, 7)
+    while True:
 
-    v5.addNeighbor(v4, 2)
+        line = file.readline()
 
-    v5.addNeighbor(v2, 1)
+        if line == "":
+            break
 
-    l.append(v1)
-    l.append(v2)
-    l.append(v3)
-    l.append(v4)
-    l.append(v5)
+        (v1, w, v2) = line.strip().split()
 
-    graph = Graph(l)
+        # save starting node for Dijkstra's shortest path algorithm
+        if lineNum == 1:
+            src = v1
 
-    graph.dijkstras(v1)
+        # add the weight to the graph,
+        # throws an exception if vertex is not valid.
+        try:
+            graph.addWeight(v1, v2, int(w))
+
+        except InvalidVertex as e:
+            print(e.args[0])
+
+        except ValueError:
+            print("The given weight is not an integer")
+
+        lineNum += 1
+
+
+    graph.printGraph()
+
+    graph.dijkstras(src)
 
 
 main()
