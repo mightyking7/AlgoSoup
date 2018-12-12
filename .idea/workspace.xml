@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9bc9eb-1e33-49f8-b8df-ca840e9e2ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Graphs/InvalidVertex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/Connections" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Connections.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graphs/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graphs/ShortestPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/ShortestPath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/Vertex.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Vertex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs/Vertices" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/Vertices.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Least Common Subsequence/LCS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Least Common Subsequence/LCS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Least Common Subsequence/test_cases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Least Common Subsequence/test_cases.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +20,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Analysis_of_Algorithms$test.coverage" NAME="test Coverage Results" MODIFIED="1539464415176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AlgoSoup$ShortestPath.coverage" NAME="ShortestPath Coverage Results" MODIFIED="1544505457057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
+    <SUITE FILE_PATH="coverage/AlgoSoup$ShortestPath.coverage" NAME="ShortestPath Coverage Results" MODIFIED="1544649551612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Graphs" />
     <SUITE FILE_PATH="coverage/AlgoSoup$LCSDriver.coverage" NAME="LCSDriver Coverage Results" MODIFIED="1543253909556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Least Common Subsequence" />
     <SUITE FILE_PATH="coverage/Analysis_of_Algorithms$mystery.coverage" NAME="mystery Coverage Results" MODIFIED="1536621117053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgoSoup$LCS.coverage" NAME="LCS Coverage Results" MODIFIED="1542951977611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Least Common Subsequence" />
@@ -56,39 +62,43 @@
     <session id="-1005230034">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="29" />
-          <entry key="txt" value="1" />
+          <entry key="Connections" value="1" />
+          <entry key="Vertices" value="2" />
+          <entry key="py" value="37" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="29" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1361" />
+          <entry key="Connections" value="68" />
+          <entry key="Python Console" value="1903" />
+          <entry key="Vertices" value="14" />
           <entry key="dummy" value="3" />
-          <entry key="py" value="13619" />
-          <entry key="txt" value="140" />
+          <entry key="py" value="20022" />
+          <entry key="txt" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="143" />
-          <entry key="Python" value="14980" />
+          <entry key="PLAIN_TEXT" value="266" />
+          <entry key="Python" value="21925" />
         </counts>
       </usages-collector>
     </session>
@@ -98,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="225">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
@@ -109,28 +119,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphs/ShortestPath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="1200">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
                 <element signature="e#168#187#0" expanded="true" />
+                <marker date="1544646121917" expanded="true" signature="1383:1385" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graphs/Graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="114" column="46" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
-                <marker date="1544505462849" expanded="true" signature="74:75" ph="..." />
-                <marker date="1544505462849" expanded="true" signature="74:108" ph="..." />
-                <marker date="1544505462849" expanded="true" signature="422:486" ph="..." />
+                <marker date="1544650015086" expanded="true" signature="111:112" ph="..." />
+                <marker date="1544650015086" expanded="true" signature="111:185" ph="..." />
+                <marker date="1544650015086" expanded="true" signature="452:694" ph="..." />
+                <marker date="1544650015086" expanded="true" signature="872:1613" ph="..." />
+                <marker date="1544650015086" expanded="true" signature="1607:1608" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,15 +152,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphs/Vertex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
               <folding>
-                <marker date="1544341749602" expanded="true" signature="90:91" ph="..." />
-                <marker date="1544341749602" expanded="true" signature="90:143" ph="..." />
-                <marker date="1544341749602" expanded="true" signature="397:420" ph="..." />
-                <marker date="1544341749602" expanded="true" signature="420:426" ph="..." />
-                <marker date="1544341749602" expanded="true" signature="420:578" ph="..." />
-                <marker date="1544341749602" expanded="true" signature="659:667" ph="..." />
+                <marker date="1544649405474" expanded="true" signature="111:112" ph="..." />
+                <marker date="1544649405474" expanded="true" signature="111:164" ph="..." />
+                <marker date="1544649405474" expanded="true" signature="449:472" ph="..." />
+                <marker date="1544649405474" expanded="true" signature="472:478" ph="..." />
+                <marker date="1544649405474" expanded="true" signature="472:713" ph="..." />
+                <marker date="1544649405474" expanded="true" signature="794:1121" ph="..." />
               </folding>
             </state>
           </provider>
@@ -156,9 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+            <state relative-caret-position="960">
+              <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -175,6 +187,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Vertix</find>
+      <find>upper</find>
+      <find>vertices</find>
+      <find>vertices</find>
     </findStrings>
     <replaceStrings>
       <replace>Vertex</replace>
@@ -196,12 +211,17 @@
         <option value="$PROJECT_DIR$/RedBlackTree/Node.py" />
         <option value="$PROJECT_DIR$/RedBlackTree/RBTree.py" />
         <option value="$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py" />
-        <option value="$PROJECT_DIR$/Least Common Subsequence/LCS.py" />
-        <option value="$PROJECT_DIR$/Least Common Subsequence/test_cases.txt" />
         <option value="$PROJECT_DIR$/Graphs/Vertice.py" />
         <option value="$PROJECT_DIR$/Graphs/Vertix.py" />
-        <option value="$PROJECT_DIR$/Graphs/Graph.py" />
+        <option value="$PROJECT_DIR$/Graphs/Options.py" />
+        <option value="$PROJECT_DIR$/Least Common Subsequence/test_cases.txt" />
+        <option value="$PROJECT_DIR$/Graphs/Vertices" />
+        <option value="$PROJECT_DIR$/Graphs/Connections" />
+        <option value="$PROJECT_DIR$/Graphs/InvalidVertex.py" />
+        <option value="$PROJECT_DIR$/Least Common Subsequence/LCS.py" />
         <option value="$PROJECT_DIR$/Graphs/ShortestPath.py" />
+        <option value="$PROJECT_DIR$/Graphs/Vertex.py" />
+        <option value="$PROJECT_DIR$/Graphs/Graph.py" />
       </list>
     </option>
   </component>
@@ -246,6 +266,11 @@
               <item name="AlgoSoup" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgoSoup" type="462c0819:PsiDirectoryNode" />
               <item name="RedBlackTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgoSoup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgoSoup" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -446,22 +471,22 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25965664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2987952" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39036146" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.21927711" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.51686746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.47831327" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3746988" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.4433735" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" weight="0.47831327" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,12 +505,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Graphs/Graph.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Graphs/Graph.py</url>
-          <line>40</line>
+          <line>93</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -530,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Least Common Subsequence/test_cases.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RedBlackTree/RBTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -544,9 +557,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Least Common Subsequence/test_cases.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Vertices.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/InvalidVertex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCSDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="225">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
@@ -556,48 +597,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphs/Vertex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1544341749602" expanded="true" signature="90:91" ph="..." />
-            <marker date="1544341749602" expanded="true" signature="90:143" ph="..." />
-            <marker date="1544341749602" expanded="true" signature="397:420" ph="..." />
-            <marker date="1544341749602" expanded="true" signature="420:426" ph="..." />
-            <marker date="1544341749602" expanded="true" signature="420:578" ph="..." />
-            <marker date="1544341749602" expanded="true" signature="659:667" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Least Common Subsequence/LCS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="960">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphs/Graph.py">
+    <entry file="file://$PROJECT_DIR$/Graphs/Connections.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="114" column="46" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="46" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Vertex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
           <folding>
-            <element signature="e#1#11#0" expanded="true" />
-            <marker date="1544505462849" expanded="true" signature="74:75" ph="..." />
-            <marker date="1544505462849" expanded="true" signature="74:108" ph="..." />
-            <marker date="1544505462849" expanded="true" signature="422:486" ph="..." />
+            <marker date="1544649405474" expanded="true" signature="111:112" ph="..." />
+            <marker date="1544649405474" expanded="true" signature="111:164" ph="..." />
+            <marker date="1544649405474" expanded="true" signature="449:472" ph="..." />
+            <marker date="1544649405474" expanded="true" signature="472:478" ph="..." />
+            <marker date="1544649405474" expanded="true" signature="472:713" ph="..." />
+            <marker date="1544649405474" expanded="true" signature="794:1121" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/ShortestPath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="1200">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="e#168#187#0" expanded="true" />
+            <marker date="1544646121917" expanded="true" signature="1383:1385" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+            <marker date="1544650015086" expanded="true" signature="111:112" ph="..." />
+            <marker date="1544650015086" expanded="true" signature="111:185" ph="..." />
+            <marker date="1544650015086" expanded="true" signature="452:694" ph="..." />
+            <marker date="1544650015086" expanded="true" signature="872:1613" ph="..." />
+            <marker date="1544650015086" expanded="true" signature="1607:1608" ph="..." />
           </folding>
         </state>
       </provider>
