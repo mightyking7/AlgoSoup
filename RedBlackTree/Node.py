@@ -1,26 +1,21 @@
+
 '''
 Node in a red black tree that stores a value.
 It has color, a left, right, and parent pointer.
+
+Isaac Buitrago
 '''
-
-NIL = 0
-
-BLACK = 1
-
-RED = 2
 
 class Node:
 
-    def __init__(self, value, color):
+    def __init__(self, key, color):
 
-        self._parent = None
+        self.parent = None
 
-        self._left = None
+        self.left = None
 
-        self._right = None
+        self.right = None
 
-        self._value = value
+        self.key = key
 
-        self._color = color
-
-
+        self.color = color
