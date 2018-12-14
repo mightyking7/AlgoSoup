@@ -1,9 +1,7 @@
-a 10 b
+a 5 b
 a 3 c
-b 1 c
-b 2 d
-c 2 e
-c 8 d
-c 4 b
-e 9 d
-d 7 e
+b 4 d
+b 1 e
+c 6 d
+c 7 e
+e 2 d

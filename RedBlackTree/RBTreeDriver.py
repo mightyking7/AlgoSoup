@@ -20,6 +20,7 @@ while True:
     else:
 
         try:
+
             key = int(key)
 
             rbTree.insert(key)
@@ -27,4 +28,3 @@ while True:
         except ValueError as e:
 
             print("Key must be a whole integer")
-

@@ -21,7 +21,6 @@ class RBTree:
         self.root = self.nil
 
     '''
-
         Purpose:
           Creates a new node and inserts it into a proper location in the tree
 
@@ -89,16 +88,19 @@ class RBTree:
             # on left branch of grandparent
             if node.parent == node.parent.parent.left:
 
-                y = node.parent.parent.right
+                uncle = node.parent.parent.right
 
                 # case 1, recolor parent and uncle
-                if y != self.nil and y.color == Color.RED:
+                if uncle != self.nil and uncle.color == Color.RED:
 
-                    y.color = node.parent.color = Color.BLACK
+                    uncle.color = node.parent.color = Color.BLACK
 
                     node.parent.parent.color = Color.RED
 
                     node = node.parent.parent
+
+                    print("Recolored parent: %d and uncle: %d to Black\n" %(node.left.key, node.right.key))
+
 
                 else:
 
@@ -109,26 +111,38 @@ class RBTree:
 
                         self.leftRotate(node)
 
+                        print("Left rotation performed on node: %d\nParent of sub-tree is node: %d\n" \
+                              %(node.key, node.parent.key))
+
                     # case 3, perform right rotation and recolor nodes
                     node.parent.color = Color.BLACK
 
+                    print("Node %d recolored to Black" %(node.parent.key))
+
                     node.parent.parent.color = Color.RED
 
+                    print("Node %d recolored to Red" %(node.parent.parent.key))
+
                     self.rightRotate(node.parent.parent)
+
+                    print("Right rotation performed on node: %d\nParent of sub-tree is node: %d\n" \
+                          % (node.parent.right.key, node.parent.key))
 
             # on the right branch of grandparent
             else:
 
-                y = node.parent.parent.left
+                uncle = node.parent.parent.left
 
                 # case 1, recolor parent and uncle
-                if y != self.nil and y.color == Color.RED:
+                if uncle != self.nil and uncle.color == Color.RED:
 
-                    y.color = node.parent.color = Color.BLACK
+                    uncle.color = node.parent.color = Color.BLACK
 
                     node.parent.parent.color = Color.RED
 
                     node = node.parent.parent
+
+                    print("Recolored parent: %d and uncle: %d to Black" %(node.right.key, node.left.key))
 
                 else:
 
@@ -139,12 +153,24 @@ class RBTree:
 
                         self.rightRotate(node)
 
+                        print("Right rotation performed on node: %d\nParent of sub-tree is node: %d\n" \
+                              % (node.key, node.parent.key))
+
                     # case 3, perform left rotation and recolor nodes
                     node.parent.color = Color.BLACK
 
+                    print("Node %d recolored to Balck" %(node.parent.key))
+
+
                     node.parent.parent.color = Color.RED
 
+                    print("Node %d recolored to Red" %(node.parent.parent.key))
+
+
                     self.leftRotate(node.parent.parent)
+
+                    print("Left rotation performed on node: %d\nParent of sub-tree is node: %d\n" \
+                          %(node.parent.left.key, node.parent.key))
 
         self.root.color = Color.BLACK
 
@@ -173,11 +199,9 @@ class RBTree:
         y.parent = node.parent
 
         if node.parent == self.nil:
-
             self.root = y
 
         elif node == node.parent.left:
-
             node.parent.left = y
 
         else:
@@ -206,23 +230,22 @@ class RBTree:
         node.left = x.right
 
         # set parent of new child
-        x.right.parent = node
+        if x.right != self.nil:
+            x.right.parent = node
 
         # set parent of x
         x.parent = node.parent
 
-        # new root
+        # set new root
         if node.parent == self.nil:
-
             self.root = x
 
+        # set x on correct side of grandparent
         elif node == node.parent.right:
-
-            node.parent.left = x
-
-        else:
             node.parent.right = x
 
+        else:
+            node.parent.left = x
 
         x.right = node
 
@@ -257,8 +280,6 @@ class RBTree:
         # root node reached
         else:
             self.root = None
-
-
 
 
 
